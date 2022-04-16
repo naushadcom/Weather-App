@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="nav">
+      <div class="div">
+        <img
+          src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png"
+        />
+      </div>
+      <div>
+        <input
+          type="text"
+          placeholder="Enter city name to get weather data"
+          id="city"
+        />
+
+        <button id="button" onclick="getWeather()">SEARCH</button>
+      </div>
+      <div class="div"><p>HOME</p></div>
+      <div class="div"><p>LOGIN</p></div>
+      <div class="div"><p>SIGNUP</p></div>
+    </div>
+    <div id="container"></div>
+    <div id="weather7"></div>
+  </body>
+</html>
+<script src="index.js"></script>

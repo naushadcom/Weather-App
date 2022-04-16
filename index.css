@@ -1,0 +1,115 @@
+
+  
+    body {
+      background-image: url("https://wallpaperaccess.com/full/1540001.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #nav {
+      display: flex;
+      width: 98%;
+      height: 60px;
+      border-radius: 10px;
+      padding: 10px;
+      margin: auto;
+      background-color: rgba(24, 24, 27, 0.623);
+    }
+    #nav > div:nth-child(1) {
+      flex-grow: 1;
+    }
+    #nav > div:nth-child(2) {
+      flex-grow: 2;
+    }
+    #nav > div:nth-child(3) {
+      flex-grow: 1;
+    }
+    #nav > div:nth-child(4) {
+      flex-grow: 1;
+    }
+    #nav > div:nth-child(5) {
+      flex-grow: 1;
+    }
+    input {
+      width: 600px;
+      margin: 10px 10px 5px 150px;
+      height: 32px;
+      border-radius: 5px;
+      border-style: none;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+        rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    #button {
+      padding: 5px 25px 5px 25px;
+      color: black;
+      background-color: rgb(109, 213, 226);
+      border-radius: 5px;
+      height: 36px;
+    }
+    #button:hover {
+      background-color: darkorange;
+    }
+    .div > p {
+      color: white;
+      font-size: 20px;
+      padding-left: 25px;
+    }
+    img {
+      height: 65px;
+      width: 150px;
+      margin-left: 20px;
+    }
+    #container {
+      display: flex;
+      margin-top: 20px;
+
+      /* border:2px solid red; */
+    }
+    #container > div {
+      justify-content: space-around;
+      border: 2px solid white;
+      margin-left: 30px;
+      margin-right: 50px;
+      background-color: rgba(23, 23, 24, 0.445);
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 10px;
+      font-weight: normal;
+      font-size: 15px;
+      padding: 10px;
+    }
+
+    h5 {
+      line-height: 5px;
+    }
+    h2 {
+      color: black;
+      padding-left: 25px;
+    }
+
+    #container > div > p {
+      margin-left: 15px;
+    }
+
+    iframe {
+      height: 250px;
+      width: 800px;
+    }
+    #weather7 {
+      display: flex;
+      justify-content: space-around;
+      color: white;
+      margin-top: 60px;
+      text-align: center;
+      height: 250px;
+    }
+    #weather7 > div {
+      width: 11%;
+      gap: 10px;
+      background-color: rgba(24, 24, 27, 0.623);
+    }
+    h6 {
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 5px;
+    }
+ 
